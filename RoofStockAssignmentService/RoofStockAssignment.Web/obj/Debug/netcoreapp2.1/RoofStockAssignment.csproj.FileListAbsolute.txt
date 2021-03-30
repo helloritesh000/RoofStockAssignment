@@ -1,0 +1,13 @@
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\bin\Debug\netcoreapp2.1\RoofStockAssignment.deps.json
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\bin\Debug\netcoreapp2.1\RoofStockAssignment.runtimeconfig.json
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\bin\Debug\netcoreapp2.1\RoofStockAssignment.runtimeconfig.dev.json
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\bin\Debug\netcoreapp2.1\RoofStockAssignment.dll
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\bin\Debug\netcoreapp2.1\RoofStockAssignment.pdb
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.csproj.CoreCompileInputs.cache
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.RazorAssemblyInfo.cache
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.RazorAssemblyInfo.cs
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.AssemblyInfoInputs.cache
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.AssemblyInfo.cs
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.RazorTargetAssemblyInfo.cache
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.dll
+C:\Users\rkumar\source\repos\RoofStockAssignment\RoofStockAssignment\obj\Debug\netcoreapp2.1\RoofStockAssignment.pdb
