@@ -1,0 +1,31 @@
+<table class="table table-hover">
+  <thead>
+<tr>
+  <th scope="col">Address</th>
+  <th scope="col">Year Built</th>
+  <th scope="col">List Price</th>
+  <th scope="col">Monthly Rent</th>
+  <th scope="col">Gross Yield %</th>
+  <th scope="col">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let property of service.propertyListJson">
+  <td scope="row">
+    <pre>
+{{property.Address.Address1}}
+{{property.Address.Address2}}
+{{property.Address.City}} ({{property.Address.District}}) Pin: {{property.Address.ZipPlus4}} {{property.Address.Zip}}
+{{property.Address.State}} ({{property.Address.County}}) {{property.Address.Country}}
+    </pre>
+  </td>
+  <td>{{property.YearBuilt}}</td>
+  <td>{{property.ListPrice | currency:'USD'}}</td>
+  <td>{{property.MonthlyRent | currency:'USD'}}</td>
+  <td>{{property.GrossYield | number : '.2' }}%</td>
+  <td><input type="button" value="{{property.Id <= 0 ? 'Save' : 'Saved'}}" class="lg btn-block" [class.btn-primary]= "property.Id <= 0" [class.btn-default]="property.Id > 0" [disabled]="property.Id > 0"  (click)="saveProperty(property)"></td>
+</tr>
+
+</tbody>
+
+</table>
