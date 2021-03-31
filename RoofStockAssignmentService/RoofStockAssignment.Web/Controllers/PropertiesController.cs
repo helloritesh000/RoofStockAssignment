@@ -17,33 +17,29 @@ namespace RoofStockAssignment.Web.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Property>> Get()
         {
-            return businessLogic.GetSavedProperties();
+            try
+            {
+                return Ok(businessLogic.GetSavedProperties());
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
         }
-
-        //// GET api/values/5
-        //[HttpGet("{id}")]
-        //public ActionResult<string> Get(int id)
-        //{
-        //    return "value";
-        //}
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] Property property)
+        public IActionResult Post([FromBody] Property property)
         {
-            businessLogic.SaveProperty(property);
+            try
+            {
+                businessLogic.SaveProperty(property);
+                return Ok(true);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
         }
-
-        //// PUT api/values/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/values/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }
