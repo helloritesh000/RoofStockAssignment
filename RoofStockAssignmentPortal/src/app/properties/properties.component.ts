@@ -22,7 +22,8 @@ export class PropertiesComponent implements OnInit {
     this.service.savedProperty(property)
     .subscribe(data => {
       this.toastr.success('Saved record to Database', 'Status Message');
-      window.location.reload();
+
+        setTimeout(()=>{ window.location.reload(); }, 2000)
     }),
     err => {
       this.toastr.error('Unable to save record to Database', 'Status Message');
